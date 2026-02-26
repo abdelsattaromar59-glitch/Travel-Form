@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>Prepare your next trip with me...</h1>
+        <p>Please take a moment to get in touch, I will get back to you shortly.</p>
+
+        <div class="column">
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Full Name" required>
+            </div>
+
+             <div>
+                <label for="the-email">Email</label>
+                <input type="email" id="the-email" name="the-email" placeholder="Enter your Email" required>
+            </div>
+
+             <div>
+                <label for="the-phone">Phone Number</label>
+                <input type="tel" id="the-phone" name="the-phone" placeholder="Enter your Phone Number" required>
+            </div>
+
+            <div>
+                <label for="the-address">Address</label>
+                <input type="text" id="the-address" name="the-address" placeholder="Enter your Address" required>
+            </div>
+
+            <div>
+                <label for="Passport-number">Passport Number</label>
+                <input type="text" id="Passport-number" name="Passport-number" placeholder="Enter your Passport Number" required>
+            </div>
+
+            <div>
+                <label for="gender">Gender</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male" >
+                    <label for="male" class="inline-label">Male</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="female" name="gender" value="female" >
+                    <label for="female" class="inline-label">Female</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="arriving-date">Arriving Date</label>
+                <input type="date" name="arriving-date" id="arriving-date" >
+            </div>
+
+            <div>
+                <label for="departure-date">Departure Date</label>
+                <input type="date" name="departure-date" id="departure-date" >
+            </div>
+
+            <div>
+                <label for="profile-picture">Profile Picture</label>
+                <input type="file" id="profile-picture" name="profile-picture">
+            </div>
+
+            <div>
+                <label for="passport-file">Passport</label>
+                <input type="file" id="passport-file" name="passport-file">
+            </div>
+
+             <div>
+                <label for="visa-file">Visa</label>
+                <input type="file" id="visa-file" name="visa-file">
+            </div>
+
+            <div>
+                <label for="id-file">Id</label>
+                <input type="file" id="id-file" name="id-file">
+            </div>
+
+            <div>
+                <label for="cities">Where would you like to travel?</label>
+                <select id="cities" name="cities" >
+                    <option value="">Choose a destination</option>
+                    <option value="newyork">New York</option>
+                    <option value="london">London</option>
+                    <option value="dubai">Dubai</option>
+                    <option value="paris">Paris</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="cairo">Cairo</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="Hotels">What hotel whould you go?</label>
+                <select id="Hotels" name="Hotels" >
+                    <option value="">Choose a hotel</option>
+                    <option value="Opulent Oasis">Opulent Oasis</option>
+                    <option value="Velvet Vista">Velvet Vista</option>
+                    <option value="Hilton">Hilton</option>
+                    <option value="Marriott">Marriott</option>
+                    <option value="The Ritz-Carlton">The Ritz-Carlton</option>
+                    <option value="Radisson Blu">Radisson Blu</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="budget" >What is your budget?</label>
+                <div>
+                    <input type="radio" id="budget1" name="budget" value="budget1" >
+                    <label for="budget1" class="inline-label">Less than $1000</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="budget2" name="budget" value="budget2" >
+                    <label for="budget2" class="inline-label">$1000 - $3000</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="budget3" name="budget" value="budget3" >
+                    <label for="budget3" class="inline-label">$3000 - $5000</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="budget4" name="budget" value="budget4" >
+                    <label for="budget4" class="inline-label">More than $5000</label>
+                </div>
+            </div>
+
+        <div>
+            <label for="age">Age</label>
+            <div>
+                <input type="radio" id="age1" name="age" value="age1" >
+                <label for="age1" class="inline-label">Under 18</label>
+            </div>
+            <div>
+                <input type="radio" id="age2" name="age" value="age2" >
+                <label for="age2" class="inline-label">18-30</label>
+            </div>
+            <div>
+                <input type="radio" id="age3" name="age" value="age3" >
+                <label for="age3" class="inline-label">31-50</label>
+            </div>
+            <div>
+                <input type="radio" id="age4" name="age" value="age4" >
+                <label for="age4" class="inline-label">51 and above</label>
+            </div>
+        </div>
+
+        <div class="column">
+            <div>
+                <label>Please check the services that you need</label>
+                <div>
+                    <input type="checkbox" id="Airline-Tickets" name="Airline-Tickets" >
+                    <label for="Airline-Tickets" class="inline-label">Airline-Tickets</label>
+                </div>
+
+                 <div>
+                    <input type="checkbox" id="Rental-Car" name="Rental-Car" >
+                    <label for="Rental-Car" class="inline-label">Rental-Car</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Hotel-Accomadations" name="Hotel-Accomadations" >
+                    <label for="Hotel-Accomadations" class="inline-label">Hotel Accomadations</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Tour-Guide" name="Tour-Guide" >
+                    <label for="Tour-Guide" class="inline-label">Tour Guide</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Travel-Insurance" name="Travel-Insurance" >
+                    <label for="Travel-Insurance" class="inline-label">Travel Insurance</label>
+                </div>
+            </div>
+        </div>
+
+        </div> 
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
