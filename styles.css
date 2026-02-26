@@ -1,3 +1,7 @@
+.root{
+    --mainwhite:var(#fbfbfb)
+}
+
 html{
     background-image: url(background.png);
     background-size: cover;
@@ -29,7 +33,7 @@ input, select{
     width: 100%;
     font-size: 20px;
     padding: 0.3em;
-    background-color: #fbfbfb;
+    background-color: var(--mainwhite);
     border: solid 1px #ccc;
     resize: vertical;
     border-radius: 10px;
